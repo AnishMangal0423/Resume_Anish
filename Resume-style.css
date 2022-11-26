@@ -1,0 +1,450 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 70vh;
+    background-image: url(https://w.wallhaven.cc/full/96/wallhaven-965qzx.jpg);
+   background-size: cover;
+   background-position: center;
+   opacity: 0.8;
+ 
+
+}
+
+.navs{
+    padding: 0px;
+    list-style: none;
+    font-family: cursive;
+    text-align: center;
+    
+   
+    
+}
+
+.navs li{
+    display: inline-block;
+    margin-left: 30px;
+   
+   
+}
+
+.navs li a{
+    color:white;
+    font-weight: bold;
+   
+    text-decoration: none;
+    transition: color 1s, border-bottom 2s;
+   
+
+}
+
+.navs li a:hover{
+    color: red;
+    border-bottom: 2px solid orange;
+   
+}
+
+.social-tag li a{
+    text-decoration: none;
+}
+
+
+/*header name styles*/
+
+.header-name{
+          font-family: cursive;
+          color: white;
+          text-align: center;
+          font-weight: bold;
+          margin-top: 150px;
+
+}
+
+h1:hover{
+    color: blueviolet;
+    transition: color 1s;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 20rem;
+    width: 25rem;
+    margin: auto;
+    margin-top: -200px;
+
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* about-passage/paragraph changes*/
+.about-passage{
+    font-family: cursive;
+    color: green;
+    margin: 100px 500px 100px;
+    font-size: medium;
+    text-transform: uppercase;
+
+
+}
+
+.text-highlight{
+    color:red;
+}
+
+
+/* Use of flex for all sections **/
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color:rgb(216, 220, 229);
+}
+
+section:nth-child(2n+1){
+    background-color:white;
+}
+
+section div1{
+    text-align: center;
+    color:black;
+    display: inline-block;
+  
+  
+
+}
+section div1 h2{
+    font-family: cursive;
+    color:red;
+    display: inline-block;
+}
+
+section div2{
+      
+       width: 70%;
+      
+    
+      margin-left: 200px;
+      margin-right:  200px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       position: relative;
+      
+      
+
+}
+
+.skill-tube{
+    width: 175px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.skill-tube-inside{
+    background-color:blue;
+    width: 80%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+
+}
+
+.skill-name span{
+    font-family: cursive;
+    font-size: 1rem;
+   
+    padding-left: 9px;
+    font-weight: 700;
+    color:white;
+
+}
+
+.COLOR2{
+    background-color:green;
+    width: 60%;
+}
+
+.COLOR3{
+    background-color: orchid;
+    width: 90%;
+
+}
+
+.COLOR4{
+    background-color: red;
+    width: 75%;
+
+}
+
+.COLOR5{
+    background-color:orchid;
+    width: 40%;
+}
+
+.COLOR6{
+    background-color:orange;
+    width: 70%;
+}
+
+.COLOR7{
+    background-color:red;
+    width: 30%;
+}
+
+.COLOR8{
+    background-color:blue;
+    width: 70%;
+}
+
+.COLOR9{
+    background-color:darkcyan;
+    width: 20%;
+}
+
+
+#experience{
+    width: 100%;
+    height: auto;
+   
+
+}
+
+
+#education{
+    width: 100%;
+    height: auto;
+  
+
+}
+
+#experience{
+    width: 100%;
+    height: auto;
+   
+
+}
+
+h2:hover{
+    color: blueviolet;
+    transition: color 2s;
+}
+
+/* working on contact section
+     Making graatings****/
+#contacts{
+         height: auto;
+         width: 100%;
+        
+        background: linear-gradient(60deg,#30485f ,#50586b) ;
+     }
+
+
+     section div2c{
+         width: 80%;
+     
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+        
+     }
+
+
+     .contact-class1{
+         font-family: cursive;
+         font-size: 1.2rem;
+         color: white;
+        
+     }
+.contact-class1 input{
+
+
+    font-family: cursive;
+    font-size: 1.2rem;
+    color:green;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border: 4px solid grey;
+
+}
+
+.contact-class1 textarea{
+    
+    font-family: cursive;
+    font-size: 1.2rem;
+    color:green;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: bold;
+  border: 4px solid grey;
+
+}
+
+.contact-class2{
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: white;
+  
+}
+.copyright p{
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: white;
+  
+}
+
+.copyright p a{
+    color: white;
+}
+
+.submit{
+  margin-left: 110px;
+  border-color: 4px solid grey;
+}
+
+.c-box{
+   
+    height: auto;
+   width: 30%;
+   margin: 20px;
+   position: relative;
+  
+ 
+ 
+
+
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.education div2{
+        display: flex;
+        flex-direction: column;
+      
+        
+     
+}**/
+
+
+.c-box:nth-child(2n){
+    left: 55%;
+   
+}
+
+
+
+.c-box:nth-child(2n+1){
+left: 10%;
+
+}
+
+
+.c-box i{
+    display: inline-block;
+}
+
+.c-box h3{
+    display: inline-block;
+         font-family: cursive;
+         
+    margin-left: 3px;
+}
+
+
+.c-box p{
+    font-family: cursive;
+    color: green;
+}
+
+.give-color{
+    color: red;
+}
+
+.give-color:hover{
+    color: orchid;
+}
+
+.c-box p a{
+    color: brown;
+}
+
+.timeline-divider{
+        height: 80%;
+        width: 0%;
+        border: 4px dashed orange;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        z-index: 0;
+
+       
+
+}
+
+.timeline-logo {
+
+  position: sticky;
+ left: 5%;
+ top: 10%;
+
+
+}
+
+
+.c-box:nth-child(2n+1):after{
+    content:'';
+    height: 10px;
+    width:10px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    bottom: 60px;
+    left: 126.5%;
+    z-index: 1;
+
+}
+
+
+
+.c-box:nth-child(2n):after{
+    content:'';
+    height: 10px;
+    width:10px;
+    border-radius: 50%;
+    background-color:black;
+    position: absolute;
+    bottom: 60px;
+    right: 120%;
+    z-index: 1;
+
+}
